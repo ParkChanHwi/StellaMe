@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35448EE92DC065AF00B9B904 /* OnboardingTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35448EE82DC065AF00B9B904 /* OnboardingTabView.swift */; };
+		35448EEB2DC065C000B9B904 /* OnboardingLastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35448EEA2DC065C000B9B904 /* OnboardingLastView.swift */; };
+		35448EED2DC065CB00B9B904 /* OnboardingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35448EEC2DC065CB00B9B904 /* OnboardingPageView.swift */; };
+		3553F5FB2DBB843300F9B6A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3553F5F72DBB843300F9B6A6 /* Assets.xcassets */; };
+		3553F6032DBB84E700F9B6A6 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3553F6022DBB84E700F9B6A6 /* SettingView.swift */; };
+		3553F6052DBB84F300F9B6A6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3553F6042DBB84F300F9B6A6 /* HomeView.swift */; };
+		3553F6072DBB84FF00F9B6A6 /* MakeAndSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3553F6062DBB84FF00F9B6A6 /* MakeAndSelectView.swift */; };
+		3553F6092DBB850C00F9B6A6 /* GalaxyMakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3553F6082DBB850C00F9B6A6 /* GalaxyMakeView.swift */; };
+		3553F60B2DBB851200F9B6A6 /* GalaxyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3553F60A2DBB851200F9B6A6 /* GalaxyModel.swift */; };
+		3553F60D2DBB851900F9B6A6 /* GalaxyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3553F60C2DBB851900F9B6A6 /* GalaxyDetailView.swift */; };
+		3553F60F2DBB855800F9B6A6 /* StarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3553F60E2DBB855800F9B6A6 /* StarDetailView.swift */; };
+		3553F6112DBB855D00F9B6A6 /* StarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3553F6102DBB855D00F9B6A6 /* StarModel.swift */; };
+		E53E15402DBBEAD900342D16 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53E153F2DBBEAD900342D16 /* StarView.swift */; };
+		E5C556A92DC06D2A004D2801 /* BunnyLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C556A82DC06D2A004D2801 /* BunnyLogic.swift */; };
+		E5C556AB2DC06D39004D2801 /* StellaMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C556AA2DC06D39004D2801 /* StellaMeApp.swift */; };
+		E5C556AD2DC06F0E004D2801 /* WalkingBunny.json in Resources */ = {isa = PBXBuildFile; fileRef = E5C556AC2DC06F0E004D2801 /* WalkingBunny.json */; };
+		E5C556B02DC06F80004D2801 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E5C556AF2DC06F80004D2801 /* Lottie */; };
+		ED2344C32DC874420084DCFB /* bunny.json in Resources */ = {isa = PBXBuildFile; fileRef = ED2344C22DC874420084DCFB /* bunny.json */; };
+		ED69D2DA2DF06AB900EDECB4 /* OnboardingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED69D2D92DF06AB100EDECB4 /* OnboardingImageView.swift */; };
+		EDBBDB0D2DCC93CA0020693A /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBBDB0C2DCC93CA0020693A /* OpenAIService.swift */; };
+		EDBBDB242DD09BB10020693A /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBBDB232DD09BB10020693A /* BottomTextView.swift */; };
+		EDBBDB282DD2192E0020693A /* starbunny.json in Resources */ = {isa = PBXBuildFile; fileRef = EDBBDB272DD2192E0020693A /* starbunny.json */; };
+		EDBBDB952DD618E80020693A /* View+NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBBDB942DD618E80020693A /* View+NavigationBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35448EE82DC065AF00B9B904 /* OnboardingTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTabView.swift; sourceTree = "<group>"; };
+		35448EEA2DC065C000B9B904 /* OnboardingLastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingLastView.swift; sourceTree = "<group>"; };
+		35448EEC2DC065CB00B9B904 /* OnboardingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageView.swift; sourceTree = "<group>"; };
+		3553F5F72DBB843300F9B6A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3553F6022DBB84E700F9B6A6 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		3553F6042DBB84F300F9B6A6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3553F6062DBB84FF00F9B6A6 /* MakeAndSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeAndSelectView.swift; sourceTree = "<group>"; };
+		3553F6082DBB850C00F9B6A6 /* GalaxyMakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalaxyMakeView.swift; sourceTree = "<group>"; };
+		3553F60A2DBB851200F9B6A6 /* GalaxyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalaxyModel.swift; sourceTree = "<group>"; };
+		3553F60C2DBB851900F9B6A6 /* GalaxyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalaxyDetailView.swift; sourceTree = "<group>"; };
+		3553F60E2DBB855800F9B6A6 /* StarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarDetailView.swift; sourceTree = "<group>"; };
+		3553F6102DBB855D00F9B6A6 /* StarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarModel.swift; sourceTree = "<group>"; };
+		D199E1602DBA129E00D3598E /* StellaMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StellaMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53E153F2DBBEAD900342D16 /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		E5C556A82DC06D2A004D2801 /* BunnyLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunnyLogic.swift; sourceTree = "<group>"; };
+		E5C556AA2DC06D39004D2801 /* StellaMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellaMeApp.swift; sourceTree = "<group>"; };
+		E5C556AC2DC06F0E004D2801 /* WalkingBunny.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WalkingBunny.json; sourceTree = "<group>"; };
+		ED2344C22DC874420084DCFB /* bunny.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bunny.json; sourceTree = "<group>"; };
+		ED69D2D92DF06AB100EDECB4 /* OnboardingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingImageView.swift; sourceTree = "<group>"; };
+		EDBBDB0C2DCC93CA0020693A /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
+		EDBBDB232DD09BB10020693A /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
+		EDBBDB272DD2192E0020693A /* starbunny.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = starbunny.json; sourceTree = "<group>"; };
+		EDBBDB942DD618E80020693A /* View+NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+NavigationBar.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D199E15D2DBA129E00D3598E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C556B02DC06F80004D2801 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35448EE72DC0644700B9B904 /* OnboardingFile */ = {
+			isa = PBXGroup;
+			children = (
+				ED69D2D92DF06AB100EDECB4 /* OnboardingImageView.swift */,
+				35448EE82DC065AF00B9B904 /* OnboardingTabView.swift */,
+				35448EEA2DC065C000B9B904 /* OnboardingLastView.swift */,
+				35448EEC2DC065CB00B9B904 /* OnboardingPageView.swift */,
+			);
+			path = OnboardingFile;
+			sourceTree = "<group>";
+		};
+		3553F5FA2DBB843300F9B6A6 /* StellaMe */ = {
+			isa = PBXGroup;
+			children = (
+				35448EE72DC0644700B9B904 /* OnboardingFile */,
+				E5C556AA2DC06D39004D2801 /* StellaMeApp.swift */,
+				E5C556A82DC06D2A004D2801 /* BunnyLogic.swift */,
+				3553F5FE2DBB84C100F9B6A6 /* Setting */,
+				3553F6012DBB84D300F9B6A6 /* Contents */,
+				3553F5FF2DBB84C800F9B6A6 /* Star */,
+				3553F6002DBB84CD00F9B6A6 /* Galaxy */,
+				3553F5F72DBB843300F9B6A6 /* Assets.xcassets */,
+			);
+			path = StellaMe;
+			sourceTree = "<group>";
+		};
+		3553F5FE2DBB84C100F9B6A6 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				3553F6022DBB84E700F9B6A6 /* SettingView.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		3553F5FF2DBB84C800F9B6A6 /* Star */ = {
+			isa = PBXGroup;
+			children = (
+				3553F60E2DBB855800F9B6A6 /* StarDetailView.swift */,
+				3553F6102DBB855D00F9B6A6 /* StarModel.swift */,
+				E53E153F2DBBEAD900342D16 /* StarView.swift */,
+			);
+			path = Star;
+			sourceTree = "<group>";
+		};
+		3553F6002DBB84CD00F9B6A6 /* Galaxy */ = {
+			isa = PBXGroup;
+			children = (
+				3553F6082DBB850C00F9B6A6 /* GalaxyMakeView.swift */,
+				3553F60A2DBB851200F9B6A6 /* GalaxyModel.swift */,
+				3553F60C2DBB851900F9B6A6 /* GalaxyDetailView.swift */,
+			);
+			path = Galaxy;
+			sourceTree = "<group>";
+		};
+		3553F6012DBB84D300F9B6A6 /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				3553F6042DBB84F300F9B6A6 /* HomeView.swift */,
+				3553F6062DBB84FF00F9B6A6 /* MakeAndSelectView.swift */,
+				EDBBDB232DD09BB10020693A /* BottomTextView.swift */,
+			);
+			path = Contents;
+			sourceTree = "<group>";
+		};
+		D199E1572DBA129E00D3598E = {
+			isa = PBXGroup;
+			children = (
+				EDBBDB0C2DCC93CA0020693A /* OpenAIService.swift */,
+				EDBBDB932DD618800020693A /* Extensions */,
+				ED2344C12DC8741F0084DCFB /* Animation */,
+				E5C556E82DC09BD0004D2801 /* Model */,
+				3553F5FA2DBB843300F9B6A6 /* StellaMe */,
+				D199E1612DBA129E00D3598E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D199E1612DBA129E00D3598E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D199E1602DBA129E00D3598E /* StellaMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5C556E82DC09BD0004D2801 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED2344C12DC8741F0084DCFB /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				EDBBDB272DD2192E0020693A /* starbunny.json */,
+				E5C556AC2DC06F0E004D2801 /* WalkingBunny.json */,
+				ED2344C22DC874420084DCFB /* bunny.json */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		EDBBDB932DD618800020693A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EDBBDB942DD618E80020693A /* View+NavigationBar.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D199E15F2DBA129E00D3598E /* StellaMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D199E16B2DBA129F00D3598E /* Build configuration list for PBXNativeTarget "StellaMe" */;
+			buildPhases = (
+				D199E15C2DBA129E00D3598E /* Sources */,
+				D199E15D2DBA129E00D3598E /* Frameworks */,
+				D199E15E2DBA129E00D3598E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StellaMe;
+			packageProductDependencies = (
+				E5C556AF2DC06F80004D2801 /* Lottie */,
+			);
+			productName = StellaMe;
+			productReference = D199E1602DBA129E00D3598E /* StellaMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D199E1582DBA129E00D3598E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					D199E15F2DBA129E00D3598E = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = D199E15B2DBA129E00D3598E /* Build configuration list for PBXProject "StellaMe" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D199E1572DBA129E00D3598E;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E5C556AE2DC06F80004D2801 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D199E1612DBA129E00D3598E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D199E15F2DBA129E00D3598E /* StellaMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D199E15E2DBA129E00D3598E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2344C32DC874420084DCFB /* bunny.json in Resources */,
+				EDBBDB282DD2192E0020693A /* starbunny.json in Resources */,
+				E5C556AD2DC06F0E004D2801 /* WalkingBunny.json in Resources */,
+				3553F5FB2DBB843300F9B6A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D199E15C2DBA129E00D3598E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35448EED2DC065CB00B9B904 /* OnboardingPageView.swift in Sources */,
+				3553F60F2DBB855800F9B6A6 /* StarDetailView.swift in Sources */,
+				3553F6092DBB850C00F9B6A6 /* GalaxyMakeView.swift in Sources */,
+				3553F6032DBB84E700F9B6A6 /* SettingView.swift in Sources */,
+				E5C556A92DC06D2A004D2801 /* BunnyLogic.swift in Sources */,
+				3553F6112DBB855D00F9B6A6 /* StarModel.swift in Sources */,
+				3553F6052DBB84F300F9B6A6 /* HomeView.swift in Sources */,
+				35448EE92DC065AF00B9B904 /* OnboardingTabView.swift in Sources */,
+				35448EEB2DC065C000B9B904 /* OnboardingLastView.swift in Sources */,
+				3553F60D2DBB851900F9B6A6 /* GalaxyDetailView.swift in Sources */,
+				E5C556AB2DC06D39004D2801 /* StellaMeApp.swift in Sources */,
+				EDBBDB0D2DCC93CA0020693A /* OpenAIService.swift in Sources */,
+				ED69D2DA2DF06AB900EDECB4 /* OnboardingImageView.swift in Sources */,
+				E53E15402DBBEAD900342D16 /* StarView.swift in Sources */,
+				EDBBDB952DD618E80020693A /* View+NavigationBar.swift in Sources */,
+				3553F60B2DBB851200F9B6A6 /* GalaxyModel.swift in Sources */,
+				3553F6072DBB84FF00F9B6A6 /* MakeAndSelectView.swift in Sources */,
+				EDBBDB242DD09BB10020693A /* BottomTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D199E1692DBA129F00D3598E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D199E16A2DBA129F00D3598E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D199E16C2DBA129F00D3598E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V826FS4328;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = academy.foundation.StellaMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D199E16D2DBA129F00D3598E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V826FS4328;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = academy.foundation.StellaMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D199E15B2DBA129E00D3598E /* Build configuration list for PBXProject "StellaMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D199E1692DBA129F00D3598E /* Debug */,
+				D199E16A2DBA129F00D3598E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D199E16B2DBA129F00D3598E /* Build configuration list for PBXNativeTarget "StellaMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D199E16C2DBA129F00D3598E /* Debug */,
+				D199E16D2DBA129F00D3598E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E5C556AE2DC06F80004D2801 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E5C556AF2DC06F80004D2801 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5C556AE2DC06F80004D2801 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D199E1582DBA129E00D3598E /* Project object */;
+}
